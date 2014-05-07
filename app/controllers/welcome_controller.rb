@@ -4,5 +4,10 @@ class WelcomeController < ApplicationController
     render :index 
   end
 
+  def contracts
+    render :contracts
+  end
+  
+
 
 end
